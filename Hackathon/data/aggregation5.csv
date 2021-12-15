@@ -1,0 +1,4 @@
+hospital_name;hospital_zip;diagnosis_1;diagnosis_2;gender;count
+Dresden;01307;G12;NULL;female;6
+Dresden;01307;U07;NULL;female;7
+Dresden;01307;U07;NULL;male;6

@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  cord_hackathon:
+    container_name: cord_hackathon
+    image: cord_hackathon:001
+    restart: unless-stopped
+    # build: docker/.
+    ports:
+    - "3838:3838"
+    volumes:
+      - ./data:/srv/shiny-server/data:rw
+      - ./config:/srv/shiny-server/config:ro
+      # - ./run.sh:/srv/shiny-server/run.sh:ro
+      # - ./Team1_FHIRCrackR/cord_hackathon_fhircrackr.r:/srv/shiny-server/script1.r
+      # - ./Team2_Distance/distance.r:/srv/shiny-server/script2.r
+      # - ./Team3_Aggregation/jars/cord-anonymization-v0.0.1.jar:/srv/shiny-server/script3.jar
+      # - ./Team4_Geoviz/app.r:/srv/shiny-server/app.r

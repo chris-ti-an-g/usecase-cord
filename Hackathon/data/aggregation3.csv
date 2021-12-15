@@ -1,0 +1,6 @@
+hospital_name;hospital_zip;diagnosis_1;diagnosis_2;count
+Dresden;01307;G35;NULL;8
+Dresden;01307;G70;NULL;5
+Dresden;01307;U07;NULL;13
+Dresden;01307;R57;U07;5
+Dresden;01307;G12;NULL;10
